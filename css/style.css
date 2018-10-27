@@ -1,0 +1,141 @@
+/*HEADER PART START*/
+header {
+   
+    padding: 15px;
+}
+
+.logo {}
+
+.logo img {
+    width: 40px;
+    margin-top: 10px;
+}
+
+.left-content {
+    width: 50%;
+    float: left;
+}
+
+
+
+.navbar {
+    text-align: right;
+}
+
+.navbar ul {}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: blue;
+}
+
+.navbar ul li a:hover {
+    color: yellow
+}
+.btn {
+	background: blue;
+	color: white;
+	padding: 5px 10px;
+	margin-top: 5px;
+}
+.text {
+	padding-top: 10px;
+}
+h4{
+	text-align: center;
+	margin-top: 20px
+}
+/*Banner area start*/
+.btn2{
+    background: blue;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 15px;
+}
+.banner-content{
+    padding-top: 180px;
+    text-align: center;
+
+}
+.demo-image{
+    padding-top: 150px;
+}
+.title{
+    text-align: center;
+    padding-top: 150px;
+}
+
+
+.agency-name img{
+    width: 15%;
+    border-radius: 200%;
+    display: inline-block;
+    padding-top: 50px;
+   
+
+}
+.agency-details{
+    margin-right: 20px;
+}
+p{
+    padding-top: 20px;
+}
+.agency-name{
+    
+    border-radius: 15px;
+    background: lightgray;
+    text-align: center;
+}
+.footer{
+    background: url(../img/background.jpg);
+    background-size: cover;
+    height: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 80px 10px ;
+    text-align: center;
+    position: relative;
+    padding-top: 150px;
+    color: white;
+}
+
+.footer::after {
+    content: "";
+    position: absolute;
+   top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 11;
+}
+.footer2{
+    padding-top: 50px;
+    text-align: left;
+    margin: 30px;
+    
+    
+   
+}
+i{  
+    padding-top: 50px;
+    margin-left: 30px;
+}
+.footer-section{
+    background-color: black;
+}
+h3{
+    color: white;
+}
+.footer-end{
+    padding-bottom: 15px;
+}
+.footer-end:hover{
+    color: white;
+}
